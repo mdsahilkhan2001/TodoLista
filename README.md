@@ -20,11 +20,19 @@ It includes **user authentication** (login/register), **JWT-based authorization*
   - Clean, responsive UI.
   - Login, Register, and Protected Dashboard pages.
   - Dynamic task updates without refresh.
+- for run code 
+http://localhost:5173
+
+
 
 - **Backend (Node + Express)**
   - RESTful API endpoints.
   - JWT middleware for protected routes.
   - MongoDB schemas for users and tasks.
+for code run 
+http://localhost:5000
+
+
 
 ---
 
