@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a, .navbar button {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-form, .dashboard {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.auth-form input, .task-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 6px 0;
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
